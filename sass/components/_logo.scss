@@ -1,0 +1,21 @@
+.logo-img {
+	width: 50%;
+	cursor: pointer;
+} 
+
+
+.logo {
+	padding-left: 2rem;
+	font-family: 'Lobster', cursive;
+}
+
+@media (min-width: 900px) {
+	.logo-box {
+		margin: 0 auto;
+	}
+}
+
+.logo a:link, a:visited {
+	text-decoration: none;
+	color: inherit;
+}

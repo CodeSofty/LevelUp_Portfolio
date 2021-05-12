@@ -1,0 +1,69 @@
+//BASE BUTTON STYLES
+
+.button {
+	text-transform: uppercase;
+	background-color: grey;
+	border: none;
+	font-size: 1.5rem;
+	font-weight: 900;
+	padding: 1.3rem;
+	width: 12rem;
+	height: 4.5rem;
+	border-radius: .5rem;
+	cursor: pointer;
+	font-size: 1.2rem;
+
+	// 	@media (min-width: 600px) {
+	// 		font-size: 1.3rem;
+	// 		padding: 1.4rem;
+	// }
+
+&__box {
+	padding: 1.5rem 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	text-align: center;
+
+	@media (min-width: 600px) {
+		flex-direction: row;
+	}
+
+}
+
+&--primary {
+	background-color: #A44A3F;
+	align-self: center;
+	margin: 2px;
+	}
+
+	&--secondary {
+	background-color: #0EB1D2;
+	align-self: center;
+	margin: 2px;
+	}
+
+}
+
+
+.project__bttn {
+		color: #fff;
+		margin-top: 3rem;
+		padding: 1rem;
+		background-color: #FF8C00;
+	}
+
+
+	.project_code_bttn {
+		color: #fff;
+		margin-top: 3rem;
+		padding: 1rem;
+		background-color: #11d92c;
+	}
+
+.nav__bttn{
+	font-size: 1.4rem;
+	background: transparent;
+
+	
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Portfolio | Evan Littlejohn</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css2?family=Arimo&family=Lobster&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="grid-wrapper">
+
+<!-- Header Section -->
+
+<header>
+	<section class="header #top">
+		<div class= "logo-box">
+			<div class= "logo">
+				<a href="#"><h1 class="heading-primary">Evan Littlejohn</h1>
+					<span class="heading-span">Web Developer Portfolio</span></a>
+	</div>
+</div>
+
+<!-- Remove this figcaption, change to a flexbox container-->
+
+	<figure class= "mail-fig"><a href ="mailto:eclittlejohn@yahoo.com?subject=Mail%20From%20Site"><i class='bx bx-mail-send mail'></i>
+	<figcaption class="mail__cap">Contact</figcaption></a></figure>
+
+</section>
+</header> 
+
+<!-- About Section -->
+
+<section class= "about #about">
+
+	<h2 class="about-sect-title sect-title heading-secondary"> About Me</h2>
+	<div class="intro__box">
+		<div class="intro__box-image">
+			<img src="img/bitmoji.png" alt="an avatar representing Evan" class="mypic">
+		</div>
+
+		<div class="intro__box-text">
+			<p>
+				Hello! I'm a web developer, who isn't picky about what language he needs know to get the job done. 
+				Being creative and solving problems is why I'm so interested in code. Take a look at my work below, and if you're interested in 
+				working with together, feel free to send me an e-mail.
+			</p>
+
+			<span>Let's Code Together!</span>
+		</div>
+	</div>
+</section>
+
+
+
+<main>
+<section class="projects #projects">
+	<h2 class="project-sect sect-title heading-secondary"> Portfolio</h2>
+
+<!-- First Project -->
+
+<div class="project">
+	<div class="project__box">
+		<div class="project__img">
+			<a href="https://mymarvelsearch.netlify.app/"><img src="img/marvelapp.jpg" alt="a picture of a dark themed weather app I made"></a>
+		</div>
+
+		<div class="project__text">
+
+			<div class="project__title">
+				<h3 class="heading-tertiary"> Marvel Search Engine </h3> 
+			</div>
+			<p> Powered by the Marvel Comic API, users search for a Marvel Comic Character by name.
+				The results bring up a list of Marvel Events that character is part of. The user can then
+				click on a Marvel Event and a list of Marvel series that make up that Marvel Event are shown.
+			</p>
+			<br>
+			<span>HTML5, SASS, Bootstrap, Javascript</span>
+
+			<div class="project__bttn-box bttn">
+				<a href="https://mymarvelsearch.netlify.app/"><button class="button project__bttn"> View Live</button></a>
+			</div>
+			<div class="project__bttn-box bttn">
+				<a href="https://github.com/CodeSofty/Marvel_Search_Engine"><button class="button project_code_bttn"> View Code</button></a>
+			</div>
+		</div>
+
+		</div>
+	</div>
+</section>
+
+</main>
+
+
+<!--- Footer -->
+<footer>
+	<nav> 
+		<div class="icons">
+			<a href="#top"><figure><i class='bx bx-chevron-up-square'></i>
+				<figcaption class="home-icon-caption">To Top</figcaption>
+			</figure></a>
+		
+			<a href="https://github.com/CodeSofty"><figure><i class='bx bxl-github'></i>
+				<figcaption class="github-icon-caption">Github</figcaption>
+			</figure></a>
+		
+		
+			<a href="#projects"><figure><i class='bx bx-briefcase'></i>
+				<figcaption class="github-icon-caption">Projects</figcaption>
+			</figure></a>
+		
+		
+			<a href="#about"><figure><i class='bx bx-smile'></i>
+				<figcaption class="about-icon-caption">About</figcaption>
+			</figure></a>
+		</div>
+	</nav>
+</footer>
+
+
+
+<script src="scripts/app.js"></script>
+</body>
+</html>
